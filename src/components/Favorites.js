@@ -10,12 +10,12 @@ export default function Favorites(config) {
                 // console.log(playlistName);
                 // console.log(videos);
                 return (
-                    <section>
+                    <section key={favoriteName}>
                         <h2>Aluratube favorites</h2>
                         <div>
                             {perfis.map((perfil) => {
                                 return (
-                                    <a href={perfil.url}>
+                                    <a key={perfil.url} href={perfil.url}>
                                         <img src={perfil.icon} />
                                         <span>
                                             {perfil.ig}
