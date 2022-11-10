@@ -11,7 +11,7 @@ export const StyledTimeline = styled.div`
     text-transform: capitalize;
   }
   img {
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/9; /**/
     font-weight: 500;
     object-fit: cover;
     width: 100%;
@@ -21,7 +21,7 @@ export const StyledTimeline = styled.div`
   section {
     width: 100%;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden; /**/
     padding: 16px;
     div {
       

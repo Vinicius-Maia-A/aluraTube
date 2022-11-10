@@ -4,6 +4,7 @@ import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/Timeline";
 import Banner from "../src/components/Banner";
+import Favorites from "../src/components/Favorites";
 
 function HomePage() {
     const estilosDaHomePage = {
@@ -21,9 +22,8 @@ function HomePage() {
                 <Menu />
                 <Banner />
                 <Header />
-                <Timeline playlists={config.playlists}>
-                    Conteúdo
-                </Timeline>
+                <Timeline playlists={config.playlists} />
+                <Favorites favorites={config.favorites}/>
             </div>
         </>
     );
@@ -83,8 +83,8 @@ function Timeline(propriedades) {
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
                 const videos = propriedades.playlists[playlistName];
-                console.log(playlistName);
-                console.log(videos);
+                // console.log(playlistName);
+                // console.log(videos);
                 return (
                     <section>
                         <h2>{playlistName}</h2>

@@ -2,7 +2,23 @@
     "name": "Vini Maia)",
     "job": "Front-End Student",
     "github": "Vinicius-Maia-A",
+    "favorites" : {
+        "perfis" : [
+            {
+                "ig" : "@omariosouto",
+                "url" : "https://www.instagram.com/omariosouto/",
+                "icon" : "https://yt3.ggpht.com/m8Yrqf0Y81L4mZ1Cq7rGnJ4NDHe6729rxiFZvWyy9-xd_Z7Osmza7J8NWpN1axMHcCb1oKJNgA=s176-c-k-c0x00ffffff-no-rj"
+            },
+            {
+                "ig" : "@peas",
+                "url" : "https://www.instagram.com/paulo_hipster/",
+                "icon" : "https://github.com/peas.png"
+            }
+        ]
+
+    },
     "playlists": {
+
         "jogos": [
             {
                 "title": "Frostpunk - Neve e Steak tartare",
